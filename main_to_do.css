@@ -1,0 +1,81 @@
+
+
+div {
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    background-color: bisque;
+    text-align: center;
+    width: 100%;
+}
+
+label > h3 {
+    /* width: 100%; */
+    font-weight: lighter;
+    text-align: center;
+}
+
+#header {
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#titlu > h1 {
+    /* width: 100%; */
+    text-align: center;
+    padding: 20px;
+}
+
+#buttons {
+    text-align: center;
+    padding: 10px;
+}
+
+#new {
+    /* display: inline-block; */
+    text-align: center;
+}
+
+#new > input > #thing {
+    width: 95%;
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+}
+
+#new > input::placeholder {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+}
+
+#add-btn {
+    background-color: rgb(198, 44, 2);
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+#main {
+    text-align: center;
+    background-color:rgb(228, 213, 237);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* li[data-checked="false"] {
+    text-decoration: none;
+} */
+
+/* li[data-checked="true"] {
+    text-decoration: line-through;
+} */
+
+
+/* #add {
+    display: inline-block;
+} */
+
+/* #buttons > div {
+    
+} */
