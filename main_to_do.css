@@ -3,9 +3,14 @@
 div {
     box-sizing: border-box;
     font-family: 'Comic Sans MS', Arial, sans-serif;
-    background-color: bisque;
+    background-color: rgb(17, 101, 102);
     text-align: center;
     width: 100%;
+}
+
+body {
+    background-color: rgb(209, 232, 226);
+    /* background-color: rgb(44, 53, 49); */
 }
 
 label > h3 {
@@ -14,11 +19,14 @@ label > h3 {
     text-align: center;
 }
 
+
+
 #header {
     border-bottom: 2px solid black;
     width: 100%;
     margin: 0 auto;
     padding: 20px;
+    color: white;
 }
 
 #titlu > h1 {
@@ -47,15 +55,16 @@ label > h3 {
 }
 
 #add-btn {
-    background-color: rgb(198, 44, 2);
-    color: rgb(255, 255, 255);
+    /* background-color: rgb(198, 44, 2); */
+    background-color: rgb(255, 203, 154);
+    color: rgb(0, 0, 0);
     font-family: 'Comic Sans MS', Arial, sans-serif;
     font-weight: bolder;
 }
 
 #main {
     text-align: center;
-    background-color:rgb(228, 213, 237);
+    background-color:rgb(209, 232, 226);
 }
 
 ul {

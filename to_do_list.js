@@ -28,8 +28,11 @@ function defineThing(item, id) {
     const theThing = document.createElement("li");
     theThing.dataset.id = id;
     theThing.innerText = item;
+    // theThing.innerText.style.font-family = 'Comic Sans MS';
     return theThing;
 }
+
+
 
 function defineCheckBox(bifatBox, id) {
     const checkBox = document.createElement("input");
